@@ -9,3 +9,6 @@
 #### PUT /api/books/:id -> update a book
 #### DELETE /api/books/:id -> delete a book
 #### GET /api/books/:id -> get a book
+
+### All routes related to books are protected and you need to pass accessToken recieved on login, in header as "Bearer "+accessToken form and key will be token.
+### Therefore token : tokenValueRecievedFromLogin will be sent with every request
