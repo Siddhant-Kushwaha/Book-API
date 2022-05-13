@@ -11,7 +11,7 @@
 #### GET /api/books/:id -> get a book
 
 ### All routes related to books are protected and you need to pass accessToken recieved on login, in header as "Bearer "+accessToken form and key will be token.
-### Therefore token : tokenValueRecievedFromLogin will be sent with every request
+### Therefore token : tokenValueRecievedFromLogin will be sent with every request in header.
 
 
 #### Local database was used in the assignment, you have to either use local database or connect your own mongoDB database
