@@ -12,3 +12,9 @@
 
 ### All routes related to books are protected and you need to pass accessToken recieved on login, in header as "Bearer "+accessToken form and key will be token.
 ### Therefore token : tokenValueRecievedFromLogin will be sent with every request
+
+
+#### Local database was used in the assignment, you have to either use local database or connect your own mongoDB database
+#### You have to create a .env File in the root directory of the project and enter the values for :
+##### JWT_SEC : yoursecretmessagehere  -> this is the secret for JWT signing and verifying process
+##### PASS_SEC : yoursecretmessagehere -> this is the secret for crypto-js to encrypt and decrypt the password
